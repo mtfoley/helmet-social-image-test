@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
-import MetaDecorator from './MetaDecorator';
 import './App.css';
 
 const App = () => {
@@ -8,7 +7,6 @@ const App = () => {
 
   return (
     <div className="App">
-      <MetaDecorator/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
